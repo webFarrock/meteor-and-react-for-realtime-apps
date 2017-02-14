@@ -14,6 +14,5 @@ const App = () => {
 
 
 Meteor.startup(() => {
-    console.log(document.querySelector('.container'));
     ReactDom.render(<App />, document.querySelector('.container'));
 })

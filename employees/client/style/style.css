@@ -1,0 +1,9 @@
+.employee-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.employee-list .thumbnail{
+    width: 300px;
+}
