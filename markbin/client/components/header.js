@@ -1,4 +1,6 @@
 import React, {Component}  from 'react';
+import Accounts from './accounts';
+
 
 class Header extends Component {
     render() {
@@ -7,9 +9,9 @@ class Header extends Component {
                 <div className="navbar-header">
                     <a className="navbar-brand">Markbin</a>
                 </div>
-                <ul className="nav navbar-bav">
+                <ul className="nav navbar-nav">
                     <li>
-                        <a href="">Sign up</a>
+                        <Accounts />
                     </li>
                     <li>
                         <a href="">Create Bin</a>
